@@ -1,0 +1,143 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.s_teasers .row > div {
+		text-align: center;	
+	}
+	.tease_descr {
+		display: block;
+		margin-top: 10px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.s_teasers .row > div {
+		text-align: left;	
+	}
+	.tease_descr {
+		display: inline-block;
+		margin-top: 10px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.top_phone, .logo {
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	.top_header {
+		margin-top: 25px
+	}
+	.top_header h1, p {
+		text-align: center;
+	}
+	.tabs_header .tabs span {
+		font-size: 14px;
+	}
+	.profi_item{
+		text-align: center;
+		
+	}
+	.profi_item .profi_left i
+	{
+		margin-right: 0;
+	}
+	.profi_item_4{
+		margin-bottom: 50px;
+	}
+	.s_contacts h2 {
+		margin-bottom: 20px;
+	}
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.top_phone, .logo {
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	.top_phone .tab_item {
+		font-size: 30px;
+	}
+	.top_header {
+		margin-top: 30px;
+	}
+	.top_header h1 {
+		font-size: 40px;
+		line-height: 40px;
+	}
+	.top_header p {
+		font-size: 28px;
+		line-height: 35px;
+	}
+	.tabs_header .tabs span {
+		font-size: 11px;
+		padding: 9px 13px;
+	}
+	.button_wrap {
+		text-align: center;
+	}
+	section h2 {
+		font-size: 38px;
+		line-height: 42px;
+	}
+	.s_contacts .tabs .tab {
+		padding: 0 24px;
+	}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.profi_item .profi_left{
+		float: left;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+@media (min-height: 780px) and (min-width: 1400px) {
+	.tabs_header {
+		position: absolute;
+		bottom: 80px;
+	}
+	.tabs_header > div {
+		width: 100%;
+		max-width: 660px;
+	}
+	.top_header {
+		margin-top: 150px;
+	}
+}
